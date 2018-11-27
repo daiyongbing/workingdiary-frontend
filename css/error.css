@@ -2,3 +2,14 @@ body{
     background:url("../img/error.jpg") no-repeat;
     background-size: 100%;
   }
+  
+.footer p {
+  margin: 0;
+	padding: 0;
+  border: 0;
+  font-family: "微软雅黑";
+  font-size: 1.4em;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
