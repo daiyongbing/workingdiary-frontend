@@ -1,0 +1,56 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+html, body { height: 100%;  color: #333; font-size: 12px; font-family: "微软雅黑",MicrosoftYaHei;}
+a { text-decoration: none; color: #3cf; -webkit-tap-highlight-color: transparent;}
+li{list-style: none;}
+table{border-collapse: collapse;}
+input {outline: medium none;font-family: "微软雅黑",MicrosoftYaHei;font-size: 14px;}
+button{font-family:"微软雅黑",MicrosoftYaHei;}
+em {font-style: normal;}
+.wrapwrap{max-width: 100%;min-height: 100%;overflow: hidden;margin: 0 auto;background: #ccc;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear:both;}
+.red{color: #f60;}
+
+.ececk_warning{
+	font-size: 13px;
+	color: red;
+	width: 300px;
+	margin: 0 auto;
+	display: none;
+}
+
+.login_wrap{
+	background: url(../img/login/login_bg.jpg) no-repeat center;
+	background-size: 100%;
+}
+.logo{
+	width: 500px;
+	height: 150px;
+	margin: 0px auto;
+	background: url(../img/login/login_wz.png) no-repeat center;
+}
+.login_box{
+	width: 360px;
+	background: #FFFFFF;
+	margin: 130px auto;
+}
+.login_title{
+	font-size: 25px;
+	text-align: center;
+	color: #FF7F50;
+	padding: 15px 0;
+	width: 300px;
+	margin: 0 auto;
+	border-bottom: solid 1px #CCCCCC;
+}
