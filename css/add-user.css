@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    background-image: url("../img/adduser-bg/add_user_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.add-user > .form{
+    margin-left: 250px;
+}
+
+.input-group-lg > .input-group-addon{
+    width: 120px;
+    background-color: white;
+}
+
+.input-group-lg > .form-control{
+    width: 500px;
+}
+
+.input-group-lg{
+    position: relative;
+    margin-top: 15px;
+}
+
+button{
+    position: relative;
+    width: 120px;
+    top: 50px;
+    left: 260px;
+    background-color:gray;
+}
+#adduser_btn{
+    position: relative;
+    left: 300px;
+}
+
+.subfild{ height:40px; border-bottom:1px solid #dbdbdb; margin-bottom:30px; margin-left: 20px;}
+.subfild span{ display:block; margin-left:5px; width:75px; text-align:center; height:24px; line-height:24px; border-bottom:3px solid #0e8bc5; font-size:16px;}
+
+.adduser_radio{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    bottom: 20px;
+    width: 200px;
+	height: 30px;
+    font-size: 1.3em
+}
+
+.adduser_radio input{
+    position: relative;
+    width: 30px;
+}
