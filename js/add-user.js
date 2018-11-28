@@ -60,4 +60,10 @@ $(function(){
             }
         });
     });
+
+
+    // reset
+    $('#reset').click(function(){
+        $(".input").val("");
+    });
 });
