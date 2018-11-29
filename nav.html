@@ -21,47 +21,51 @@
     	<div class="sidebar">
         	<div class="sidebar-bg"></div>
             <i class="sidebar-hide"></i>
-            <h2><a href="javascript:;"><i class="h2-icon" title="切换到树型结构"></i><span></span></a></h2>
+            <!--
+				<h2><a href="javascript:;"><i class="h2-icon" title="切换到树型结构">菜单栏</i><span></span></a></h2>
+			-->
             <ul class="nav">
-                <li class="nav-li">
-                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">个人中心</span></a>
+                <li class="nav-li  current">
+                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">公共空间</span></a>
                     <ul class="subnav">
-                    	<li class="subnav-li" href="index.html" data-id="1"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">我的信息</span></a></li>
+                    	<li class="subnav-li current" href="index.html" data-id="1"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">首页</span></a></li>
                         <li class="subnav-li" href="form.html" data-id="2"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">今日要闻</span></a></li>
                         <li class="subnav-li" href="table.html" data-id="3"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">队友动态</span></a></li>
            
                     </ul>
-                </li>
-                <li class="nav-li current">
-                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">日志管理</span></a>
-                	<ul class="subnav">
-                    	<li class="subnav-li current" href="index.html" data-id="4"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">首页</span></a></li>
-                        <li class="subnav-li" href="form.html" data-id="5"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">提交日志</span></a></li>
-                        <li class="subnav-li" href="table.html" data-id="6"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">查看日志</span></a></li>
+				</li>
+
+				<li class="nav-li">
+                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">个人中心</span></a>
+                    <ul class="subnav">
+						<li class="subnav-li" href="personal-info/personal-info.html" data-id="4"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">个人资料</span></a></li>
+						<li class="subnav-li" href="personal-info/personal-info-update.html" data-id="5"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">更新资料</span></a></li>
+                        <li class="subnav-li" href="cert_img.html" data-id="6"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">我的证书</span></a></li>
+           
                     </ul>
                 </li>
                 <li class="nav-li">
-                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">工作安排</span></a>
-                    <ul class="subnav">
-                    	<li class="subnav-li" href="index.html" data-id="7"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">全部待办</span></a></li>
-                        <li class="subnav-li" href="index.html" data-id="8"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">完成情况</span></a></li>
-                        <li class="subnav-li" href="index.html" data-id="9"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">添加待办</span></a></li>
+                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">日志管理</span></a>
+                	<ul class="subnav">
+                        <li class="subnav-li" href="push-log.html" data-id="7"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">上传日志</span></a></li>
+                        <li class="subnav-li" href="table.html" data-id="8"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">查看日志</span></a></li>
                     </ul>
-                </li>
-                <li class="nav-li last-nav-li">
-                	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">证书管理</span></a>
-                    <ul class="subnav">
-                    	<li class="subnav-li" href="display-cert.html" data-id="10"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">证书列表</span></a></li>
-                        <li class="subnav-li" href="cert_img.html" data-id="11"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">查看证书</span></a></li>
-                        <li class="subnav-li" href="index.html" data-id="12"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">更新证书</span></a></li>
-						<li class="subnav-li" href="index.html" data-id="13"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">删除证书</span></a></li>
+				</li>
+				
+				<li class="nav-li last-nav-li">
+					<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">证书管理</span></a>
+					<ul class="subnav">
+						<li class="subnav-li" href="upload.html" data-id="9"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">上传证书</span></a></li>
+						<li class="subnav-li" href="cert-list.html" data-id="10"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">证书列表</span></a></li>
+						<li class="subnav-li" href="cert-update.html" data-id="11"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">更新证书</span></a></li>
 					</ul>
 				</li>
+   
 				<li class="nav-li last-nav-li">
                 	<a href="javascript:;" class="ue-clear"><i class="nav-ivon"></i><span class="nav-text">人员管理</span></a>
                     <ul class="subnav">
-                    	<li class="subnav-li" href="user-info.html" data-id="14"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">所有人员</span></a></li>
-                        <li class="subnav-li" href="add-user.html" data-id="15"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">添加用户</span></a></li>
+                    	<li class="subnav-li" href="user-info.html" data-id="12"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">查看用户</span></a></li>
+                        <li class="subnav-li" href="add-user.html" data-id="13"><a href="javascript:;" class="ue-clear"><i class="subnav-icon"></i><span class="subnav-text">添加用户</span></a></li>
 					</ul>
                 </li>
             </ul>
@@ -97,30 +101,33 @@
 	var setting = {};
 
 		var zNodes =[
-			{ name:"个人中心",
+			{ name:"公共空间",
 			   children: [
-				 { name:"我的信息",icon:'img/skin_/leftlist.png'},
+				 { name:"首页", checked:true, icon:'img/skin_/leftlist.png'},
 				 { name:"今日要闻",icon:'img/skin_/leftlist.png'},
 				 { name:"队友动态",icon:'img/skin_/leftlist.png'}
 			]},
+			{ name:"个人中心",
+			   children: [
+				 { name:"个人资料",icon:'img/skin_/leftlist.png'},
+				 { name:"更新资料",icon:'img/skin_/leftlist.png'},
+				 { name:"我的证书",icon:'img/skin_/leftlist.png'}
+			]},
 			{ name:"日志管理", open:true,
 			   children: [
-				 { name:"首页", checked:true,icon:'img/skin_/leftlist.png'},
-				 { name:"提交日志",icon:'img/skin_/leftlist.png'},
+				 { name:"上传日志",icon:'img/skin_/leftlist.png'},
 				 { name:"查看日志",icon:'img/skin_/leftlist.png'}
-			]},
-			{ name:"工作安排",
-			   children: [
-				 { name:"全部待办",icon:'img/skin_/leftlist.png'},
-				 { name:"完成情况",icon:'img/skin_/leftlist.png'},
-				 { name:"添加待办",icon:'img/skin_/leftlist.png'}
 			]},
 			{ name:"证书管理",
 			   children: [
-				 { name:"查看证书",icon:'img/skin_/leftlist.png'},
-				 { name:"下载证书",icon:'img/skin_/leftlist.png'},
+				 { name:"上传证书",icon:'img/skin_/leftlist.png'},
+				 { name:"证书列表",icon:'img/skin_/leftlist.png'},
 				 { name:"更新证书",icon:'img/skin_/leftlist.png'},
-				 { name:"删除证书",icon:'img/skin_/leftlist.png'}
+			]},
+			{ name:"人员管理",
+			   children: [
+				 { name:"查看用户",icon:'img/skin_/leftlist.png'},
+				 { name:"添加用户",icon:'img/skin_/leftlist.png'}
 			]}
 		];
 

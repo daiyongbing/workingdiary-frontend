@@ -10,63 +10,66 @@
             <h2 class="subfild">
                 <span>添加用户</span>
             </h2>
-            <form class="form">
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="userId-addon">用&nbsp;户&nbsp;&nbsp;ID</span>
-                    <input type="text" id="userId" class="form-control" placeholder="ID" aria-describedby="userId-addon">
-                </div>
+            <div class="form-bg">
+                <p>添加用户</p>
+                <form class="form">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="userId-addon">用&nbsp;户&nbsp;&nbsp;ID</span>
+                        <input type="text" id="userId" class="form-control" placeholder="ID" aria-describedby="userId-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="userName-addon">用户姓名</span>
+                        <input id="userName" type="text" class="form-control" placeholder="姓名" aria-describedby="userName-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="role-addon">用户角色</span>
+                        <input id="role" type="text" class="form-control" placeholder="角色" aria-describedby="role-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="projectTeam-addon">项&nbsp;目&nbsp;组</span>
+                        <input id="projectTeam" type="text" class="form-control" placeholder="项目组" aria-describedby="projectTeam-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="userPosition-addon">当前职位</span>
+                        <input id="userPosition" type="text" class="form-control" placeholder="职位" aria-describedby="userPosition-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="certNo-addon">证书编号</span>
+                        <input id="certNo" type="text" class="form-control" placeholder="证书编号" aria-describedby="certNo-addon">
+                    </div>
+        
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="leader-addon">项目经理</span>
+                        <input id="leader" type="text" class="form-control" placeholder="项目经理" aria-describedby="leader-addon">
+                    </div>
     
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="userName-addon">用户姓名</span>
-                    <input id="userName" type="text" class="form-control" placeholder="姓名" aria-describedby="userName-addon">
-                </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="password-addon">初始密码</span>
+                        <input id="password" type="password" class="form-control" placeholder="初始密码" aria-describedby="password-addon">
+                    </div>
     
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="role-addon">用户角色</span>
-                    <input id="role" type="text" class="form-control" placeholder="角色" aria-describedby="role-addon">
-                </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="repassword-addon">确认密码</span>
+                        <input id="repassword" type="password" class="form-control" placeholder="确认密码" aria-describedby="repassword-addon">
+                    </div>
+                    <div class="adduser_radio">
+                        性别：
+                        男<input name="sex" id="sex" type="radio" value="male" checked>
+                        女<input name="sex" id="sex" type="radio" value="female">
+                    </div>
     
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="projectTeam-addon">项&nbsp;目&nbsp;组</span>
-                    <input id="projectTeam" type="text" class="form-control" placeholder="项目组" aria-describedby="projectTeam-addon">
-                </div>
-    
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="userPosition-addon">当前职位</span>
-                    <input id="userPosition" type="text" class="form-control" placeholder="职位" aria-describedby="userPosition-addon">
-                </div>
-    
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="certNo-addon">证书编号</span>
-                    <input id="certNo" type="text" class="form-control" placeholder="证书编号" aria-describedby="certNo-addon">
-                </div>
-    
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="leader-addon">项目经理</span>
-                    <input id="leader" type="text" class="form-control" placeholder="项目经理" aria-describedby="leader-addon">
-                </div>
-
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="password-addon">初始密码</span>
-                    <input id="password" type="password" class="form-control" placeholder="初始密码" aria-describedby="password-addon">
-                </div>
-
-                <div class="input-group input-group-lg">
-                    <span class="input-group-addon" id="repassword-addon">确认密码</span>
-                    <input id="repassword" type="password" class="form-control" placeholder="确认密码" aria-describedby="repassword-addon">
-                </div>
-                <div class="adduser_radio">
-                    性别：
-                    男<input name="sex" id="sex" type="radio" value="male" checked>
-                    女<input name="sex" id="sex" type="radio" value="female">
-                </div>
-
-                <div>
-                    <button type="button" id ="reset" class="btn btn-default btn-lg">重&nbsp;&nbsp;&nbsp;&nbsp;置</button>
-                    <button type="button" id="adduser_btn" class="btn btn-default btn-lg">添&nbsp;&nbsp;&nbsp;&nbsp;加</button>
-                </div>
-                
-            </form>
+                    <div>
+                        <button type="button" id ="reset" class="btn btn-default btn-lg">重&nbsp;&nbsp;&nbsp;&nbsp;置</button>
+                        <button type="button" id="adduser_btn" class="btn btn-default btn-lg">添&nbsp;&nbsp;&nbsp;&nbsp;加</button>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
 
         <script type="text/javascript" src="js\jquery.min.js"></script>

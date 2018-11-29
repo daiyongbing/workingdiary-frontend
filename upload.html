@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Upload</title>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="File Upload widget Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+	<link rel="stylesheet" href="css/upload/upload.css">
+</head>
+
+<body>
+<h1>Cert Upload</h1>
+<div class="agile-its">
+	<h2>Cert Upload</h2>
+	<div class="w3layouts">
+		<p>点击选择您要上传的证书文件，或者也可以将文件拖拽到下方</p>
+		<div class="photos-upload-view">
+			<form id="upload" action="index.html" method="POST" enctype="multipart/form-data">
+				<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+					<div class="agileinfo">
+					<input type="submit" class="choose" value="Choose file..">
+					<h3>OR</h3>
+						<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+						<div id="filedrag">drag and drop cert here</div>
+					</div>
+			</form>
+			<div id="messages">
+				<p></p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+	</div>
+	<div class="upload_confirm">
+		<button type="button" id ="cert_cancel" class="btn btn-default btn-sm">取消</button>
+		<button type="button" id ="cert_upload" class="btn btn-default btn-sm">上传</button>
+	</div>
+</div>
+
+<!--
+<div class="footer">
+	<p> © 2018 File Upload. All Rights Reserved | Design by  <a href=""> daiyongbing </a></p>
+</div>
+-->
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/upload/filedrag.js"></script>
+</body>
+</html>

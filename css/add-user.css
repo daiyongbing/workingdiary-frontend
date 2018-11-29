@@ -1,14 +1,32 @@
 body{
-    background-color: white;
-    background-image: url("../img/adduser-bg/add_user_bg.jpg");
-    background-repeat: no-repeat;
+    background-color: #F5F5F5;
     background-size: 100%;
 }
 
+.form-bg > p{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
 
+.add-user{
+    margin-left: 20px;
+  
+}
 
-.add-user > .form{
+.form-bg{
+    margin-top: 10px;
     margin-left: 250px;
+    background-color: white;
+    width: 720px;
+    height: 790px;
+}
+
+.form{
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .input-group-lg > .input-group-addon{
