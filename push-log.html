@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/skin_/form.css" />
-    <link rel="stylesheet" type="text/css" href="css/put-log.css" />
+    <link rel="stylesheet" type="text/css" href="css/push-log.css" />
     <script type="text/javascript" src="js/jquery.js"></script>
     <title>push log</title>
 </head>
@@ -23,7 +23,7 @@
             	<div class="kv-item ue-clear">
                 	<label><span class="impInfo">*</span>日志标题</label>
                 	<div class="kv-item-content">
-                    	<input type="text" placeholder="日志标题" />
+                    	<input id="title" type="text" placeholder="日志标题" />
                     </div>
                     <span class="kv-item-tip">标题字数限制在35个字符</span>
                 </div>  
@@ -37,17 +37,18 @@
             	<div class="kv-item ue-clear">
                 	<label><span class="impInfo">*</span>日志内容</label>
                 	<div class="kv-item-content">
-                    	<textarea placeholder="日志内容" id="content" style="width:800px;height:240px;"></textarea>
+                    	<textarea id="content" placeholder="日志内容" id="content" style="width:800px;height:240px;"></textarea>
                     </div>
                 </div>
             </div>
             
             <div>
-                <button id="confirm" class="btn btn-default btn-middle" type="button">确认提交</button>
+                <button id="submit" class="btn btn-default btn-middle" type="button">确认提交</button>
             </div>
         </div>
     </div>
 </div>
+<script type="text/javascript" src="js/push-log.js"></script>
 </body>
 
 <script type="text/javascript">
